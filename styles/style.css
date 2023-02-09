@@ -5,7 +5,10 @@
   margin: 0;
   padding: 0;
 }
-.heading {
+body {
+  font-family: "Work Sans", sans-serif;
+}
+header h1 {
   font-size: 65px;
 }
 header {
@@ -29,10 +32,43 @@ header {
   margin-top: 30px;
   color: rgba(0, 95, 172, 1);
   font-size: 16px;
-  font-family: "Work Sans", sans-serif;
   font-weight: 600;
 }
 header p {
   width: 30%;
   margin-top: 30px;
+}
+
+/* CSS for Info Section */
+.info-section {
+  margin: 0 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.info-content {
+  padding-left: 100px;
+}
+.info-section h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.info-section p {
+  font-size: 20px;
+  color: rgba(68, 67, 67, 1);
+  margin-bottom: 20px;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+  color: rgba(68, 67, 67, 1);
+}
+
+li i {
+  color: rgba(22, 216, 135, 1);
+  font-size: 14px;
+  margin-right: 10px;
 }
